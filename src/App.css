@@ -2,12 +2,13 @@
 
   /* Colors */
   --white: #FFFFFF;
-  --blue-normal: #365ED9
+  --blue-normal: #365ED9;
   --blue-dark: #0E254E;
   --silver: #787878;
+  
 
   /* Animations */
-  --transition-link: 0.25s ease;
+  --transition: 0.25s ease;
 
 
 
