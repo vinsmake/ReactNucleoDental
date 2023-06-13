@@ -1,0 +1,41 @@
+:root {
+
+  /* Colors */
+  --white: #FFFFFF;
+  --blue-normal: #365ED9
+  --blue-dark: #0E254E;
+  --silver: #787878;
+
+  /* Animations */
+  --transition-link: 0.25s ease;
+
+
+
+}
+
+/* --START--BOX-SIZING AND REM CONFIG-- */
+html {
+  font-size: 137.5%; /* 1rem=22px */
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media (max-width: 920px) {
+  html {
+      font-size: 125%; /* 1rem=20px */
+      }
+}
+
+@media (max-width: 480px) {
+  html {
+  font-size: 112.5%; /* 1rem=18px */
+  }
+}
+
+body {
+  font-size: 1rem;
+}
+/* --END--BOX-SIZING AND REM CONFIG-- */
